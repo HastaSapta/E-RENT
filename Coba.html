@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Contoh WEB Print</title>
+  </head>
+  <body>
+   <div id="printableArea">
+     <table>
+       <tr>
+         <th>Nama</th>
+         <th>Kelas</th>
+         <th>Sekolah</th>
+       </tr>
+       <tr>
+         <td>Amin Yusuf</td>
+         <td>XI - RPL</td>
+         <td>SMK Negeri 2 Bandung</td>
+       </tr>
+     </table>
+<script>
+function printDiv(divName){
+     var printContents = document.getElementById(divName).innerHTML;
+     var originalContents = document.body.innerHTML;
+
+     document.body.innerHTML = printContents;
+
+     window.print();
+
+     document.body.innerHTML = originalContents;
+}
+</script>
+   </div>
+  </body>
+</html>

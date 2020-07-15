@@ -1,0 +1,61 @@
+.form-style-3{
+	max-width: 450px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-3 label{
+	display:block;
+	margin-bottom: 10px;
+}
+.form-style-3 label > span{
+	float: left;
+	width: 100px;
+	color: salmon;
+	font-weight: bold;
+	font-size: 13px;
+}
+.form-style-3 fieldset{
+	border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid salmon;
+	padding: 20px;
+	background: #333;
+	box-shadow: inset 0px 0px 15px salmon;
+}
+.form-style-3 textarea{
+	width:250px;
+	height:100px;
+}
+.form-style-3 input[type=text],
+.form-style-3 input[type=date],
+.form-style-3 input[type=datetime],
+.form-style-3 input[type=number],
+.form-style-3 input[type=search],
+.form-style-3 input[type=time],
+.form-style-3 input[type=url],
+.form-style-3 input[type=email],
+.form-style-3 select, 
+.form-style-3 textarea{
+	border-radius: 3px;
+	outline: none;
+	color: #333;
+	padding: 5px 8px 5px 8px;
+	box-shadow: inset 1px 1px 4px #F1F1F1;
+	background: #F1F1F1;
+	width:50%;
+
+}
+.form-style-3  input[type=submit],
+.form-style-3  input[type=button]{
+	background: red;
+	border: 1px solid #333;
+	padding: 5px 15px 5px 15px;
+	color: #F1F1F1;
+	box-shadow: inset -1px -1px 3px #F1F1F1;
+	border-radius: 3px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+.form-style-3 .required{
+	color:red;
+	font-weight:normal;
+}

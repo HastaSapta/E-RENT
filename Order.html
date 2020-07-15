@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Order</title>
+<link rel="stylesheet" href="css/Order.css"/>
+</head>
+<body>
+<div class="form-style-3">
+<form id="order" name="order" onsubmit="return false">
+<fieldset>
+  <label for="field1"><span>Nama <span class="required">*</span></span><input type="text" class="input-field" name="field1" /></label>
+  <label for="field2"><span>Nomor Handphone<span class="required">*</span></span><input type="number" class="input-field" name="field2" value="" /></label>
+  <label for="field3"><span>Nomor KTP<span class="required">*</span></span><input type="number" class="input-field" name="field3" /></label>
+  <label for="field4"><span>Jenis Kendaraan</span><select name="field4" class="select-field">
+  <option value="Avanza">Avanza</option>
+  <option value="Vespa">Vespa</option>
+  <option value="Cayla">Cayla</option>
+  <option value="Pcx">Pcx</option>
+</select></label>
+  <label for="field5"><span>Nomor Polisi <span class="required">*</span></span><input type="number" class="input-field" name="field5" /></label>
+  <label for="field6"><span>Harga <span class="required">*</span></span><input type="number" class="input-field" name="field6" /></label>  
+<label for="field7"><span>Pembayaran <span class="required">*</span></span><select name="field7" class="input-field" id="field7">
+  <option>-----Pilih Pembayaran-----</option>
+  <option>BCA</option>
+  <option>BRI</option>
+  <option>BNI</option>  
+</select>
+</label>    
+  <label for="field8"><span>Nomor Rekening <span class="required">*</span></span><input type="number" class="input-field" name="field8" /></label>
+  <label><span>&nbsp;</span><input type="submit" value="Bayar Sekarang" onclick="window.print()"/></label>
+</fieldset>
+</form>
+</div>
+</body>
+</html>
